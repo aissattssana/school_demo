@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resource\for company.jpg" />
+    <None Remove="Resource\online lessons.jpg" />
+    <None Remove="Resource\school_logo.ico" />
+    <None Remove="Resource\school_logo.png" />
+    <None Remove="Resource\Английский язык.jpg" />
+    <None Remove="Resource\Испанский язык.jpg" />
+    <None Remove="Resource\Итальянский язык.jpg" />
+    <None Remove="Resource\киноклуб.jpg" />
+    <None Remove="Resource\Китайский язык.jpg" />
+    <None Remove="Resource\Немецкий язык.png" />
+    <None Remove="Resource\Подготовка к экзамену ACT.png" />
+    <None Remove="Resource\Подготовка к экзамену GMAT.png" />
+    <None Remove="Resource\Подготовка к экзамену GRE.jpeg" />
+    <None Remove="Resource\Подготовка к экзамену IELTS.jpg" />
+    <None Remove="Resource\Подготовка к экзамену SAT.png" />
+    <None Remove="Resource\Подготовка к экзамену TOEFL.jpg" />
+    <None Remove="Resource\Португальский язык.jpg" />
+    <None Remove="Resource\Французский язык.jpg" />
+    <None Remove="Resource\Японский язык.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resource\for company.jpg" />
+    <Resource Include="Resource\online lessons.jpg" />
+    <Resource Include="Resource\school_logo.ico" />
+    <Resource Include="Resource\school_logo.png" />
+    <Resource Include="Resource\Английский язык.jpg" />
+    <Resource Include="Resource\Испанский язык.jpg" />
+    <Resource Include="Resource\Итальянский язык.jpg" />
+    <Resource Include="Resource\киноклуб.jpg" />
+    <Resource Include="Resource\Китайский язык.jpg" />
+    <Resource Include="Resource\Немецкий язык.png" />
+    <Resource Include="Resource\Подготовка к экзамену ACT.png" />
+    <Resource Include="Resource\Подготовка к экзамену GMAT.png" />
+    <Resource Include="Resource\Подготовка к экзамену GRE.jpeg" />
+    <Resource Include="Resource\Подготовка к экзамену IELTS.jpg" />
+    <Resource Include="Resource\Подготовка к экзамену SAT.png" />
+    <Resource Include="Resource\Подготовка к экзамену TOEFL.jpg" />
+    <Resource Include="Resource\Португальский язык.jpg" />
+    <Resource Include="Resource\Французский язык.jpg" />
+    <Resource Include="Resource\Японский язык.jpg" />
+  </ItemGroup>
+
+</Project>

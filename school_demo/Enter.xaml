@@ -1,0 +1,24 @@
+﻿<Window x:Class="school_demo.Enter"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:school_demo"
+        mc:Ignorable="d"
+        Title="Enter" Height="400" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            
+        </Grid.RowDefinitions>
+        <Label Content="Школа языков “Леарн”"  Grid.Row="0" HorizontalAlignment="Center" FontSize="22" VerticalAlignment="Center"></Label>
+        <Button Content="Каталог" x:Name="katalog" Click="katalog_Click" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#FFE7FABF"/>
+        <Button Content="Администратор" x:Name="admin" Click="admin_Click" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#FFE7FABF"/>
+        <TextBox x:Name="code" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="270"/>
+
+    </Grid>
+</Window>
